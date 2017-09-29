@@ -1,3 +1,5 @@
+**[Information]**
+
 I extend WinSCP repo to collect files from remote hosts with powershell.
 
 Before using this tool the Config\configurations.txt file must be modified according to servers informations.
