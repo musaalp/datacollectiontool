@@ -1,5 +1,3 @@
-**[Information](http://musaalp.com)**
-
 ## Information
 
 I extend WinSCP repo to collect files from remote hosts with powershell.
