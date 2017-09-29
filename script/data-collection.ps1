@@ -73,6 +73,7 @@
                 #Write-Host  -foregroundcolor green "$file successfully downloaded from $downloadedFrom"
                 Write-Host  -foregroundcolor green ([string]::Format("Success: {0} downloaded from {1}", $file, $downloadedFrom))
             }
+            
             Write-Host  ([string]::Format("Downloading process from: {0} completed", $hostName)) 
             write-Host "`n"        
         }
