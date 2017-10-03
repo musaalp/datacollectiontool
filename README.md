@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Introduction
 -------------
 This tool extended by using WinSCP. It is basicly collect files from given hosts. The files to be collected are sorted as descenting according to the creation date.
