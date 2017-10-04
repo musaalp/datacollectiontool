@@ -3,6 +3,7 @@ Introduction
 This tool extended by using WinSCP. It is basicly collect files from given hosts. The files to be collected are sorted as descenting according to the creation date.
 
 
+
 Configuration
 -------------
 Before execute the script, the configurations.txt in the \config directory must be configurate according hosts informations. Each line contains, related informations according to its host.
@@ -23,6 +24,7 @@ There is a one more variable named <kbd>$localPath</kbd> in the script should be
 The local address where collected files to be store.
 
 
+
 Usage
 -------------
 ```sh
@@ -33,7 +35,6 @@ cd "C:\DataCollectionTool\script"
 Execute the script
 .\data-collection.ps1
 ```
-
 ```sh
 Command Line:
 Execute the script
