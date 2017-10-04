@@ -35,7 +35,7 @@ Execute the script
 ```
 
 ```sh
-**Command Line**
+Command Line:
 Execute the script
 Powershell.exe -File C:\DataCollectionTool\script\data-collection.ps1
 ```
