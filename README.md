@@ -12,12 +12,12 @@ The template in the configurations.txt file is:
 {hostAddress};{user};{pass};{remotePath};{latestFileCount};{protocol}
 ```
 
->  hostAddress : it can be domain name or ip address, for example musaalp.com or 127.0.0.1 etc.
->  user : a user which is has read permission to get files from given host
->  pass : user's pass
->  remotePath : the path in the given host to get files.
->  latestFileCount : indentify how many files should be take
->  protocol : sftp or ftp
+>  - **hostAddress** : it can be domain name or ip address, for example musaalp.com or 127.0.0.1 etc.
+>  - **user** : a user which is has read permission to get files from given host.
+>  - **pass** : user's pass.
+>  - **remotePath** : the path in the given host to get files.
+>  - **latestFileCount** : indentify how many files should be take.
+>  - **protocol** : sftp or ftp.
 
 There is a one more variable named <kbd>$localPath</kbd> in the script should be set.
 The local address where collected files to be store.
@@ -25,16 +25,18 @@ The local address where collected files to be store.
 
 Usage
 -------------
-```
-**Power Shell**
-> Navigate to the directory where the script lives:
-> cd "C:\DataCollectionTool\script"
+```sh
+Power Shell:
+Navigate to the directory where the script lives:
+cd "C:\DataCollectionTool\script"
 
-Execute the script:
-> .\data-collection.ps1
+Execute the script
+.\data-collection.ps1
 ```
 
-```
+```sh
 **Command Line**
-> Powershell.exe -File C:\DataCollectionTool\script\data-collection.ps1
+Execute the script
+Powershell.exe -File C:\DataCollectionTool\script\data-collection.ps1
 ```
+
